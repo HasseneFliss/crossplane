@@ -105,7 +105,7 @@ xfn:
   enabled: false
   image:
     repository: crossplane/xfn
-    tag: %%VERSION%%
+    tag: v3.0.0
     pullPolicy: IfNotPresent
   args: []
   extraEnvVars: {}
