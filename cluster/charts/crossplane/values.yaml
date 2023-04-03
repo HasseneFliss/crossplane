@@ -4,7 +4,7 @@ deploymentStrategy: RollingUpdate
 
 image:
   repository: crossplane/crossplane
-  tag: %%VERSION%%
+  tag: v3.0.0
   pullPolicy: IfNotPresent
 
 nodeSelector: {}
