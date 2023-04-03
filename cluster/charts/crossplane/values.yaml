@@ -4,7 +4,7 @@ deploymentStrategy: RollingUpdate
 
 image:
   repository: crossplane/crossplane
-  tag: stable
+  tag: master
   pullPolicy: IfNotPresent
 
 nodeSelector: {}
@@ -105,7 +105,7 @@ xfn:
   enabled: false
   image:
     repository: crossplane/xfn
-    tag: stable
+    tag: master
     pullPolicy: IfNotPresent
   args: []
   extraEnvVars: {}
