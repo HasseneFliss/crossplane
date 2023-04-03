@@ -4,7 +4,7 @@ deploymentStrategy: RollingUpdate
 
 image:
   repository: crossplane/crossplane
-  tag: v3.0.0
+  tag: master
   pullPolicy: IfNotPresent
 
 nodeSelector: {}
@@ -30,7 +30,7 @@ provider:
 configuration:
   packages: []
 
-imagePullSecrets: {}
+PullSecrets: {}
 
 registryCaBundleConfig: {}
 
@@ -105,7 +105,7 @@ xfn:
   enabled: false
   image:
     repository: crossplane/xfn
-    tag: v3.0.0
+    tag: master
     pullPolicy: IfNotPresent
   args: []
   extraEnvVars: {}
